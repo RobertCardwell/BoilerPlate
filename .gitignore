@@ -1,4 +1,6 @@
-.env
+# The Decouple file: uncomment the next line for deployment of this project.
+# .env
+
 notes/email-activation.py
 src/ecommerce/aws/ignore2.py
 
@@ -65,7 +67,7 @@ coverage.xml
 
 # Django stuff:
 *.log
-local_settings.py
+local-settings.py
 
 # Flask stuff:
 instance/
@@ -111,5 +113,4 @@ ENV/
 
 # mypy
 .mypy_cache/
-
 

@@ -1,8 +1,9 @@
 import os
+from decouple import config
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-SECRET_KEY = '(&i#$_8d_s)r+q4sbqaedxu#64s757dni&80ir&r6*&*@q!i_z'
+SECRET_KEY = config('SECRET_KEY')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
