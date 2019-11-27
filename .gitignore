@@ -1,6 +1,9 @@
-# The Decouple file: uncomment the next line for deployment of this project.
-# .env
+# Stuff that is commented out in this boilerplate project but should be
+# uncommented in a deployed version.
+# .env                  # Decouple file
+# local-settings.py     # Local settings file.
 
+# Miscellaneous files.
 notes/email-activation.py
 src/ecommerce/aws/ignore2.py
 
@@ -67,7 +70,7 @@ coverage.xml
 
 # Django stuff:
 *.log
-local-settings.py
+#local-settings.py
 
 # Flask stuff:
 instance/
@@ -95,7 +98,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
+#.env
 .venv
 env/
 venv/
