@@ -3,8 +3,9 @@
 import os
 import sys
 
-
 def main():
+    # swap the following two lines when deploying the project:
+    #os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'boilerplate.settings.production')
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'boilerplate.settings.development')
     try:
         from django.core.management import execute_from_command_line
