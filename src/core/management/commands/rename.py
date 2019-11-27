@@ -21,6 +21,7 @@ class Command(BaseCommand):
             'boilerplate/settings/base.py',
             'boilerplate/wsgi.py',
             'manage.py',
+            'core/management/commands/rename.py'
         ]
         
         folder_to_rename = 'boilerplate'
