@@ -1,3 +1,8 @@
+# A tool to rename this project at all the points where the name occurs.
+# Usage to rename the project to "myproject":
+# python manage.py rename myproject
+# You will need to manually rename the outermost folder.
+
 from django.core.management.base import BaseCommand
 import os
 
