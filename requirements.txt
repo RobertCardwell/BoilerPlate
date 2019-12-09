@@ -1,7 +1,8 @@
-Django
-django-crispy-forms
-django-debug-toolbar
-Pillow
-python-decouple
-pytz
-sqlparse
+asgiref==3.2.3
+Django==3.0
+django-crispy-forms==1.8.1
+django-debug-toolbar==2.1
+Pillow==6.2.1
+python-decouple==3.3
+pytz==2019.3
+sqlparse==0.3.0
